@@ -1,0 +1,38 @@
+[
+     {
+          "id": 1,
+          "name": "Basic",
+          "price": "$30/month",
+          "features": [
+               "cardio",
+               "weights",
+               "pool"
+          ]
+     },
+     {
+          "id": 2,
+          "name": "Premium",
+          "price": "$50/month",
+          "features": [
+               "cardio",
+               "weights",
+               "pool",
+               "classes",
+               "personal trainer"
+          ]
+     },
+     {
+          "id": 3,
+          "name": "Ultimate",
+          "price": "$80/month",
+          "features": [
+               "cardio",
+               "weights",
+               "pool",
+               "classes",
+               "personal trainer",
+               "sauna",
+               "steam room"
+          ]
+     }
+]
