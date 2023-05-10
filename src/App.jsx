@@ -8,7 +8,7 @@ function App() {
     <>
       <div>
         <Navbar></Navbar>
-        <h1 className='text-6xl text-purple-400'>Hello from tailwind</h1>
+        <h1 className='text-6xl text-purple-400 ml-11 p-2'>Hello from tailwind</h1>
         <PriceList></PriceList>
       </div>
     </>

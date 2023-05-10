@@ -14,7 +14,7 @@ const Navbar = () => {
      ];
 
      return (
-          <nav className='bg-blue-300'>
+          <nav className='bg-blue-300 mx-8'>
                <div onClick={() => setOpen(!open)} className='md:hidden'>
                     <span>
                          {
