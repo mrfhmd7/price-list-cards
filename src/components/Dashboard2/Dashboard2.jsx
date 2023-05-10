@@ -1,11 +1,9 @@
 import React from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Line } from 'recharts';
 
 
-
-const Dashboard = () => {
-
-    const marksArray = [
+const Dashboard2 = () => {
+     const marksArray = [
         {
           id: 1,
           name: "Student 1",
@@ -24,14 +22,14 @@ const Dashboard = () => {
           id: 3,
           name: "Student 3",
           physics: 90,
-          chemistry: 80,
+          chemistry: 60,
           math: 75
         },
         {
           id: 4,
           name: "Student 4",
           physics: 65,
-          chemistry: 75,
+          chemistry: 65,
           math: 85
         },
         {
@@ -59,7 +57,7 @@ const Dashboard = () => {
           id: 8,
           name: "Student 8",
           physics: 75,
-          chemistry: 85,
+          chemistry: 95,
           math: 90
         },
         {
@@ -91,23 +89,20 @@ const Dashboard = () => {
           math: 70
         }
       ];
-      
-
-    return (
-        <div>
-            <LineChart
-                width={800}
-                height={300}
-                data={marksArray}
-            >
-                <Line type="monotone" dataKey="physics"></Line>
-                <Line type="monotone" stroke="#8884d8" dataKey="math"></Line>
-                <XAxis dataKey="name" />
-                <YAxis></YAxis>
-                <Tooltip />
-            </LineChart>
-        </div>
-    );
+     return (
+          <div>
+              <AreaChart
+              width={800}
+              height={400}
+              data={marksArray}
+              >
+                    <Area type="monotone" dataKey="chemistry" stroke="##052900" fill="#052900"></Area>
+                    <XAxis dataKey="name" />
+                    <YAxis />
+                    <Tooltip></Tooltip>
+              </AreaChart> 
+          </div>
+     );
 };
 
-export default Dashboard;
+export default Dashboard2;
