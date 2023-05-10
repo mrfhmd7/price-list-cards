@@ -24,7 +24,7 @@ const PhoneBar = () => {
                          }
                          return phoneInfo;
                     })
-                    console.log(phonesData);
+                    // console.log(phonesData);
                     setPhones(phonesData);
                })
      }, [])
