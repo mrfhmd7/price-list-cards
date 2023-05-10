@@ -2,6 +2,7 @@ import './App.css'
 import Dashboard from './components/Dashboard/Dashboard'
 import Dashboard2 from './components/Dashboard2/Dashboard2'
 import Navbar from './components/Navbar/Navbar'
+import PhoneBar from './components/PhoneBar/PhoneBar'
 import PriceList from './components/PriceList/PriceList'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <PriceList></PriceList>
         <Dashboard></Dashboard>
         <Dashboard2></Dashboard2>
+        <PhoneBar></PhoneBar>
       </div>
     </>
   )
